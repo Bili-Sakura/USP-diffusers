@@ -14,14 +14,11 @@ Converge much faster just with weight initialization from pretrain.
 
 If you find USP useful in your research or applications, please consider giving a star ⭐ and citing using the following BibTeX:
 ```
-@misc{chu2025uspunifiedselfsupervisedpretraining,
-      title={USP: Unified Self-Supervised Pretraining for Image Generation and Understanding}, 
-      author={Xiangxiang Chu and Renda Li and Yong Wang},
-      year={2025},
-      eprint={2503.06132},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.06132}, 
+@article{chu2025usp,
+  title={Usp: Unified self-supervised pretraining for image generation and understanding},
+  author={Chu, Xiangxiang and Li, Renda and Wang, Yong},
+  journal={arXiv preprint arXiv:2503.06132},
+  year={2025}
 }
 
 ```
