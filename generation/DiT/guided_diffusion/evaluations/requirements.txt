@@ -1,4 +1,0 @@
-tensorflow
-scipy
-requests
-tqdm

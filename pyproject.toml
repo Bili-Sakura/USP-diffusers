@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusers-usp"
+version = "0.1.0"
+description = "Diffusers-style USP image generation components (DiT / SiT VAE-simple)."
+readme = "README_DIFFUSERS.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "diffusers>=0.30.1",
+    "torch",
+    "timm",
+    "safetensors",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pillow"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["register_usp"]

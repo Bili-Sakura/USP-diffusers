@@ -66,7 +66,7 @@ Recent studies have highlighted the interplay between diffusion models and repre
 Please refer to  [PRETRAIN.md](./pretrain/PRETRAIN.md)
 ## Downstream Task
 ### Generation
-Please refer to  [GENERATION.md](./generation/GENERATION.md)
+Please refer to [GENERATION.md](./generation/GENERATION.md) and [README_DIFFUSERS.md](./README_DIFFUSERS.md) for Diffusers-native DiT/SiT inference.
 
 [//]: # (### Image Generation Under the DiT Framework)
 
